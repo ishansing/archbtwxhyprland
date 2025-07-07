@@ -1,0 +1,137 @@
+{
+  "layer": "top",
+  "position": "top",
+  "width": 1900,
+  "margin-top": 10,
+  "modules-left": ["hyprland/workspaces"],
+
+  "modules-center": ["clock", "custom/music"],
+
+  "modules-right": [
+    //   "custom/uptime",
+    //  "backlight",
+    "tray",
+    "network#speed",
+    "cpu",
+    "memory",
+    "custom/docker",
+    "battery",
+    "pulseaudio",
+    "bluetooth",
+    //"network",
+    "custom/lock",
+    "custom/power",
+  ],
+
+  "hyprland/workspaces": {
+    "format": "{name}: {icon}",
+    "format-icons": {
+      "active": "",
+      "default": "",
+    },
+  },
+
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8,
+  },
+
+  "custom/music": {
+    "format": "  {}",
+    "escape": true,
+    "interval": 5,
+    "tooltip": false,
+    "exec": "playerctl metadata --format='{{ artist }} - {{ title }}'",
+    "on-click": "playerctl play-pause",
+    "max-length": 50,
+  },
+
+  "clock": {
+    "timezone": "Asia/Kolkata",
+    "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
+    "format": "{:%d/%m - %H:%M}",
+    "interval": 1,
+  },
+
+  // "network": {
+  //   "format-wifi": "󰤢 {bandwidthDownBits}",
+  //   "format-ethernet": "󰈀 {bandwidthDownBits}",
+  //   "format-disconnected": "󰤠 No Network",
+  //   "interval": 5,
+  //  "tooltip": false
+  //},
+
+  "network": {
+    "format": "{ifname}",
+    "format-wifi": "{icon}",
+    "format-ethernet": "󰌘",
+    "format-disconnected": "󰌙",
+    "tooltip-format": "{ipaddr}  {bandwidthUpBits}  {bandwidthDownBits}",
+    "format-linked": "󰈁 {ifname} (No IP)",
+    "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+    "tooltip-format-ethernet": "{ifname} 󰌘",
+    "tooltip-format-disconnected": "󰌙 Disconnected",
+    "max-length": 10,
+    "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
+    "on-click-right": "nm-connection-editor",
+  },
+
+  "network#speed": {
+    "interval": 1,
+    "format": "{ifname}",
+    "format-wifi": " {bandwidthDownBytes}",
+    "format-ethernet": "󰌘  {bandwidthUpBytes}  {bandwidthDownBytes}",
+    "format-disconnected": "󰌙",
+    "tooltip-format": "{ipaddr}",
+    "format-linked": "󰈁 {ifname} (No IP)",
+    "tooltip-format-wifi": "{essid} {icon} {signalStrength}%",
+    "tooltip-format-ethernet": "{ifname} 󰌘",
+    "tooltip-format-disconnected": "󰌙 Disconnected",
+    "min-length": 10,
+    "max-length": 10,
+    //	"format-icons": [
+    //		"󰤯", "󰤟", "󰤢", "󰤥", "󰤨"
+    //	]
+  },
+  "cpu": {
+    "interval": 1,
+    "format": "  {icon0}{icon1}{icon2}{icon3} {usage:>2}%",
+    "format-icons": ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█"],
+  },
+
+  "memory": {
+    "interval": 30,
+    "format": "  {used:0.1f}G",
+  },
+  "bluetooth": {
+    "format": " ",
+    "format-disabled": "󰂳",
+    "format-connected": "󰂱",
+    "tooltip-format": " {device_alias}",
+    "tooltip-format-connected": "{device_enumerate}",
+    "tooltip-format-enumerate-connected": " {device_alias} 󰂄{device_battery_percentage}%",
+    "tooltip": true,
+    "on-click": "blueman-manager",
+  },
+
+  "custom/uptime": {
+    "format": "{}",
+    "interval": 1600,
+    "exec": "sh -c '(uptime -p)'",
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "",
+    "format-icons": {
+      "default": ["", "", " "],
+    },
+    "on-click": "pavucontrol",
+  },
+
+  "custom/power": {
+    "tooltip": false,
+    "on-click": "wlogout &",
+    "format": "⏻",
+  },
+}
