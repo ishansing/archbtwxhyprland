@@ -47,11 +47,11 @@ adjust-cell-height = 32%
 font-family = Fira Code Nerd Font
 font-size = 11
 font-synthetic-style = true
-background = #0f0f0f
+background = #010102
 
 mouse-hide-while-typing = true
 window-padding-color = background
-window-decoration = false
+window-decoration = true
 
 window-padding-balance = true
 window-padding-x = 0
