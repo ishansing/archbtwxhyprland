@@ -1,5 +1,6 @@
 zoxide init fish | source
 starship init fish | source
+fzf --fish | source
 alias c='clear'
 alias ll='ls -l'
 alias la='ls -la'
