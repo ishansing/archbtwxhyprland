@@ -1,0 +1,7 @@
+[mgr]
+show_hidden = true         # Show hidden files by default
+sort_by = "natural"        # Sort by last modified time
+sort_reverse = true        # Newest files first
+preview_max_size = 5242880 # 5MB max for previews
+preview_max_width = 800    # Adjust image preview size
+preview_max_height = 600

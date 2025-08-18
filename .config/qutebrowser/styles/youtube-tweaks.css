@@ -1,0 +1,4 @@
+/* remove that annoying thing yt adds in dark mode */
+.ytp-gradient-bottom {
+  display: none !important;
+}

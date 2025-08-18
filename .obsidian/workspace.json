@@ -1,0 +1,276 @@
+{
+  "main": {
+    "id": "e863e18bbbb10262",
+    "type": "split",
+    "children": [
+      {
+        "id": "a32467f88ebde2b7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d477952ba45f9151",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "work-flow.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -172.5546875,
+                  "zoom": 0
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "work-flow"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3467753ddc84247",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6e51b05138f30bb",
+        "type": "tabs",
+        "dimension": 62.73885350318471,
+        "children": [
+          {
+            "id": "c51069a8fa265c0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "989abcebf3f494c3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "74f4f82e1a82ed85",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0884071612793400",
+        "type": "tabs",
+        "dimension": 37.261146496815286,
+        "children": [
+          {
+            "id": "11cb605381b5543b",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 299.51103591918945
+  },
+  "right": {
+    "id": "827b0a4078fe3fd1",
+    "type": "split",
+    "children": [
+      {
+        "id": "d70f996cce730c96",
+        "type": "tabs",
+        "dimension": 59.84427141268076,
+        "children": [
+          {
+            "id": "9b436cb3cf50c153",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "pinned": true,
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "d840524f8465d09e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Progress_Log/per_day_progress/2025-02-23.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 2025-02-23"
+            }
+          },
+          {
+            "id": "30c24bb2a1806e72",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Progress_Log/per_day_progress/2025-02-23.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 2025-02-23"
+            }
+          },
+          {
+            "id": "0c3974e1aa2108ca",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f406d54ce63ba84b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Progress_Log/per_day_progress/2025-02-23.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 2025-02-23"
+            }
+          }
+        ]
+      },
+      {
+        "id": "83bbe64d5e2429e2",
+        "type": "tabs",
+        "dimension": 40.155728587319246,
+        "children": [
+          {
+            "id": "360cf22b1e8a3ccb",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "pinned": true,
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 294.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "obsidian-importer:Open Importer": false,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "d477952ba45f9151",
+  "lastOpenFiles": [
+    "work-flow.canvas",
+    "Design Patterns/Factory Pattern.md",
+    "Backend Structure.md",
+    "Design Patterns",
+    "2025-05-17.md",
+    "Progress_Log/per_day_progress/2025-04-06.md",
+    "Canvas For Ideation/Brainstorm.canvas",
+    "Contents.md",
+    "hackathon.canvas",
+    "Progress_Log/TO-DO.md",
+    "Progress_Log/per_day_progress/2025-03-08.md",
+    "Progress_Log/per_day_progress/2025-03-09.md",
+    "Progress_Log/per_day_progress/2025-03-16.md",
+    "Progress_Log/per_day_progress/2025-03-22.md",
+    "Important Links.md",
+    "Progress_Log/Progress.md",
+    "Code/Backend",
+    "Code/Fullstack/syntax-learn/utils/db.js",
+    "Code/Fullstack/syntax-learn/utils",
+    "Code/Fullstack/syntax-learn/routes/user.routes.js",
+    "Code/Fullstack/syntax-learn/routes",
+    "Code/Fullstack/syntax-learn/package.json",
+    "Code/Fullstack/syntax-learn/package-lock.json",
+    "Code/Fullstack/syntax-learn/model/User.model.js",
+    "Code/Fullstack/syntax-learn/model",
+    "Progress_Log/per_day_progress/2025-03-02.md",
+    "Progress_Log/per_day_progress/2025-03-01.md",
+    "Progress_Log/per_day_progress/2025-02-26.md",
+    "Untitled Kanban.md",
+    "Progress_Log/per_day_progress/2025-02-25.md",
+    "Progress_Log/per_day_progress/2025-02-24.md",
+    "Progress_Log/per_day_progress/2025-02-23.md",
+    "Diagrams/Calculator-design.excalidraw.md",
+    "Diagrams/Todo-design.excalidraw.md",
+    "Progress_Log/per_day_progress/2025-02-09.md",
+    "Progress_Log/per_day_progress/2025-02-16.md",
+    "Progress_Log/per_day_progress/2025-02-15.md",
+    "2025-02-16.md",
+    "Code/chai-aur-hero-section-fsd6ia2y/Challenge-1.JPG",
+    "Code/crisp_clone/assets/logo.png",
+    "Pasted image 20241228015312.png",
+    "Pasted image 20241228012936.png",
+    "Untitled 1.canvas"
+  ]
+}

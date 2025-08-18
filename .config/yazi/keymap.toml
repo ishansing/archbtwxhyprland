@@ -1,0 +1,9 @@
+[[mgr.prepend_keymap]]
+on = ["f"]
+run = 'shell "fd . | fzf --multi > /tmp/yazi-files && yazi paste /tmp/yazi-files" --silent'
+desc = "Fuzzy-find files with fd and fzf, then paste in Yazi"
+
+[[mgr.prepend_keymap]]
+on = ["v"]
+run = 'shell "fd . | fzf --multi | xargs -r nvim" --silent'
+desc = "Fuzzy-find files with fd and fzf, then open in vim"

@@ -1,0 +1,85 @@
+# Custom Rosé Pine theme for Yazi with #050408 background
+# Based on Rosé Pine palette: https://rosepinetheme.com/palette/
+
+[ui]
+background = "#050408" # Custom background
+border = "#c4a7e7"     # Iris (purple) for borders
+shadow = "#26233a"     # Overlay (darker shade for shadows)
+
+[status]
+separator_open = ""
+separator_close = ""
+separator_style = { fg = "#31748f", bg = "#050408" } # Faded (teal) for separators
+mode_normal = { fg = "#050408", bg = "#ebbcba" }     # Love (pink) for normal mode
+mode_select = { fg = "#050408", bg = "#f6c177" }     # Gold (yellow) for select mode
+mode_unset = { fg = "#050408", bg = "#9ccfd8" }      # Foam (cyan) for unset mode
+progress = { fg = "#e0def4", bg = "#050408" }        # Text (light) for progress
+permissions = { fg = "#e0def4" }                     # Text for permissions
+datetime = { fg = "#e0def4" }                        # Text for datetime
+size = { fg = "#e0def4" }                            # Text for file sizes
+
+[parent]
+background = "#050408"
+cwd = { fg = "#e0def4" }                     # Text for current working directory
+hovered = { fg = "#ebbcba", bg = "#1f1d2e" } # Love on Surface (slightly lighter bg)
+unhovered = { fg = "#e0def4" }               # Text for unhovered items
+bookmark = { fg = "#f6c177" }                # Gold for bookmarks
+
+[filelist]
+background = "#050408"
+hovered = { fg = "#ebbcba", bg = "#1f1d2e" }  # Love on Surface
+selected = { fg = "#f6c177", bg = "#1f1d2e" } # Gold on Surface
+unhovered = { fg = "#e0def4" }                # Text for unhovered files
+unselected = { fg = "#6e6a86" }               # Muted (gray) for unselected files
+symlink = { fg = "#9ccfd8" }                  # Foam for symlinks
+directory = { fg = "#31748f" }                # Faded for directories
+executable = { fg = "#eb6f92" }               # Rose for executables
+regular = { fg = "#e0def4" }                  # Text for regular files
+socket = { fg = "#c4a7e7" }                   # Iris for sockets
+pipe = { fg = "#c4a7e7" }                     # Iris for pipes
+device = { fg = "#c4a7e7" }                   # Iris for devices
+special = { fg = "#f6c177" }                  # Gold for special files
+
+[preview]
+background = "#050408"
+hovered = { fg = "#ebbcba", bg = "#1f1d2e" }      # Love on Surface
+image_border = { fg = "#c4a7e7" }                 # Iris for image borders
+tab_active = { fg = "#e0def4", bg = "#1f1d2e" }   # Text on Surface
+tab_inactive = { fg = "#6e6a86", bg = "#050408" } # Muted on background
+tab_border = { fg = "#c4a7e7" }                   # Iris for tab borders
+
+[input]
+background = "#050408"
+border = "#c4a7e7"                            # Iris for input borders
+title = { fg = "#e0def4" }                    # Text for input title
+value = { fg = "#e0def4" }                    # Text for input value
+selected = { fg = "#f6c177", bg = "#1f1d2e" } # Gold on Surface for selected input
+
+[select]
+background = "#050408"
+border = "#c4a7e7"            # Iris for select borders
+active = { fg = "#ebbcba" }   # Love for active items
+inactive = { fg = "#6e6a86" } # Muted for inactive items
+
+[tasks]
+background = "#050408"
+border = "#c4a7e7"                           # Iris for task borders
+title = { fg = "#e0def4" }                   # Text for task titles
+hovered = { fg = "#ebbcba", bg = "#1f1d2e" } # Love on Surface
+
+[notify]
+background = "#050408"
+border = "#c4a7e7"                 # Iris for notification borders
+title_info = { fg = "#e0def4" }    # Text for info titles
+title_error = { fg = "#eb6f92" }   # Rose for error titles
+title_warning = { fg = "#f6c177" } # Gold for warning titles
+message = { fg = "#e0def4" }       # Text for messages
+
+[help]
+background = "#050408"
+border = "#c4a7e7"                           # Iris for help borders
+hovered = { fg = "#ebbcba", bg = "#1f1d2e" } # Love on Surface
+footer = { fg = "#e0def4" }                  # Text for footer
+on = { fg = "#f6c177" }                      # Gold for active keybindings
+run = { fg = "#31748f" }                     # Faded for run commands
+desc = { fg = "#e0def4" }                    # Text for descriptions

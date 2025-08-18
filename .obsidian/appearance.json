@@ -1,0 +1,8 @@
+{
+  "cssTheme": "ProtocolBlue",
+  "interfaceFontFamily": "Brass Mono,JetBrains Mono",
+  "textFontFamily": "Brass Mono Code,JetBrains Mono",
+  "monospaceFontFamily": "Brass Mono Code,JetBrainsMonoNL Nerd Font",
+  "baseFontSize": 17,
+  "accentColor": "#03a89d"
+}
